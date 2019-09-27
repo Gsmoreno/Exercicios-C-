@@ -16,7 +16,7 @@ namespace MatrizImpar
            
            Console.WriteLine("Digite os numeros nos vetores ! ");
            for(int i = 0; i < 6; i++){
-             Console.WriteLine("Vetor["+ i +"]: ");
+             Console.WriteLine($"Digite o {i+1} numero: ");
              vetor[i] = Convert.ToInt32(Console.ReadLine());
            }
             for(int i = 0; i < 6; i++){
