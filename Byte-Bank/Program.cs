@@ -15,21 +15,25 @@ namespace Byte_Bank
             string cpf = Console.ReadLine();
             System.Console.Write("Email: ");
             string email = Console.ReadLine();
-            
-            Cliente cliente1 = new Cliente(nome,cpf,email);
+
+            Cliente cliente1 = new Cliente(nome, cpf, email);
 
             bool trocouSenha = false;
-            do{
+            do
+            {
                 Console.Write("Senha: ");
                 string senha = Console.ReadLine();
-                trocouSenha  = cliente1.TrocaSenha(senha); 
-                if(trocouSenha){
+                trocouSenha = cliente1.TrocaSenha(senha);
+                if (trocouSenha)
+                {
                     System.Console.WriteLine("Senha alterada com sucesso!");
-                } else{
+                }
+                else
+                {
                     System.Console.WriteLine("Senha Invalida!");
                 }
-            }while(!trocouSenha);
-            
+            } while (!trocouSenha);
+
             System.Console.WriteLine("_________________________________");
             System.Console.WriteLine("    Dados da Conta Corrente");
             System.Console.WriteLine("_________________________________");
@@ -39,24 +43,27 @@ namespace Byte_Bank
             int agencia = int.Parse(Console.ReadLine());
             Console.Write("Numero da Conta Corrente: ");
             int numero = int.Parse(Console.ReadLine());
-            Console.Write("Saldo: ");
-            double saldo = double.Parse(Console.ReadLine());
-            
-            
-            ContaCorrente cliente2 = new ContaCorrente(numero,agencia,titular);
 
+
+            ContaCorrente contaCorrente1 = new ContaCorrente(numero, agencia, titular);
+            double saldo;
             
-            
-                
-                if(saldo > 0){
+            do{
+                Console.Write("Saldo: ");
+                saldo = double.Parse(Console.ReadLine());
+                if (saldo >= 0)
+                {
                     System.Console.WriteLine("Sua conta foi cadastrada!");
-                } else
+                    contaCorrente1.Saldo =saldo;
+                }
+                else
                 {
                     System.Console.WriteLine("Sua conta não foi cadastrada pois seu saldo é negativo!");
                 }
-            
 
-            }
+            } while (saldo < 0);
+            Console.WriteLine();
         }
     }
+}
 
