@@ -56,8 +56,14 @@ namespace Byte_Bank
                 }
             }while(Dinheiro > Saldo);
         }
-        public bool Tranferencia(double ContaCorrente, double Valor){
-
+        public bool Tranferencia(ContaCorrente contaDestino, double Valor){
+                if (this.Saque(Valor))
+                {
+                    contaDestino.Deposito(valor);
+                    return true;
+                } else {
+                    return false;
+                }
         }
 
     }

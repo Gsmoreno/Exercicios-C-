@@ -63,6 +63,17 @@ namespace Byte_Bank
 
             } while (saldo < 0);
             Console.WriteLine();
+
+            Cliente cliente2 = new Cliente ("Cleber","123.123.123.12","asjasjjasjasd@sdasd.com");
+            ContaCorrente contaCorrente2 = new ContaCorrente("123", "123", cliente2);
+
+            Cliente usuario = contaCorrente1.Titular;
+            System.Console.WriteLine("Byte_Bank - Deposito");
+            System.Console.WriteLine($"Bem vindo - {usuario.Nome}");
+            System.Console.WriteLine($"Agencia {contaCorrente1.Agencia} Conta: {} ");
+        
+        
+        
         }
     }
 }
