@@ -58,6 +58,7 @@ namespace Todolist
                         break;
                     case 3:
                         System.Console.WriteLine("Vlw flw!");
+                        SaveItem(todolist, filePath);
                         break;
                     default:
                         System.Console.WriteLine("Opção invalida");
@@ -120,15 +121,52 @@ namespace Todolist
                     index = int.Parse(id) - 1;
                 }
 
-                if((index < 0) || (index > todoList.Count -1)){
+                if ((index < 0) || (index > todoList.Count - 1))
+                {
                     System.Console.WriteLine("ID Invalido");
                     System.Console.WriteLine("Pressione <ENTER> para continuar");
                     Console.ReadLine();
-                    
-                }else{
+
+                }
+                else
+                {
                     todoList.RemoveAt(index);
                 }
             } while (true);
+        }
+        //Grava a lista no arquivo
+        static void SaveItem(List<TodoItem> lista, string filePath)
+        {
+            List<string> linhas = new List<string>();
+            
+
+            foreach (TodoItem item in lista)
+            {
+                string titulo = "\"" + item.Titulo + "\"";
+                string nota = "\"" + item.Nota + "\"";
+                linhas.Add(titulo + "," + nota);
+            }
+            string tryAgain = "n";
+            do
+            {
+
+                try
+                {
+                    File.WriteAllLines(filePath, linhas);
+                    tryAgain = "n";
+                }
+                catch (IOException e)
+                {
+                    System.Console.WriteLine("Erro na gravação do arquivo.");
+                    System.Console.WriteLine(e.Message);
+                    do
+                    {
+                        System.Console.WriteLine("Deseja tentar novamente?");
+                        tryAgain = Console.ReadLine().ToLower();
+                        
+                    } while (tryAgain == "s" || tryAgain == "n");
+                }
+            } while (tryAgain !="n");
         }
 
     }
