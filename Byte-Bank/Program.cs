@@ -45,32 +45,32 @@ namespace Byte_Bank
             int numero = int.Parse(Console.ReadLine());
 
 
-            ContaCorrente contaCorrente1 = new ContaCorrente(numero, agencia, titular);
-            double saldo;
+            ContaCorrente contaCorrente1 = new ContaCorrente(numero, agencia, cliente1);
+            double valor = 0;
             
             do{
                 Console.Write("Saldo: ");
-                saldo = double.Parse(Console.ReadLine());
-                if (saldo >= 0)
+                valor = double.Parse(Console.ReadLine());
+                if (valor >= 0)
                 {
                     System.Console.WriteLine("Sua conta foi cadastrada!");
-                    contaCorrente1.Saldo =saldo;
+                    contaCorrente1.Deposito(valor);
                 }
                 else
                 {
                     System.Console.WriteLine("Sua conta não foi cadastrada pois seu saldo é negativo!");
                 }
 
-            } while (saldo < 0);
+            } while (valor < 0);
             Console.WriteLine();
 
             Cliente cliente2 = new Cliente ("Cleber","123.123.123.12","asjasjjasjasd@sdasd.com");
-            ContaCorrente contaCorrente2 = new ContaCorrente("123", "123", cliente2);
+            ContaCorrente contaCorrente2 = new ContaCorrente(123, 123, cliente2);
 
             Cliente usuario = contaCorrente1.Titular;
             System.Console.WriteLine("Byte_Bank - Deposito");
             System.Console.WriteLine($"Bem vindo - {usuario.Nome}");
-            System.Console.WriteLine($"Agencia {contaCorrente1.Agencia} Conta: {} ");
+            System.Console.WriteLine($"Agencia {contaCorrente1.Agencia} Conta: {contaCorrente1.Numero} ");
         
         
         
