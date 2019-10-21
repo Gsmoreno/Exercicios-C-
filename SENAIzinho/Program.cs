@@ -43,11 +43,21 @@ namespace SENAIzinho
                     
                 }
             }
-            public void CadastrarSala()
-            public void AlocarAluno()
-            public void RemoverAluno()
-            public void VerificarSalas()
-            public void VerificarAlunos()
+            public void CadastrarSala(){
 
+            }
+            public void AlocarAluno(){
+
+            }
+            public void RemoverAluno(){
+
+            }
+            public void VerificarSalas(){
+
+            }
+            public void VerificarAlunos(){
+
+            }
+        }
     }
 }
