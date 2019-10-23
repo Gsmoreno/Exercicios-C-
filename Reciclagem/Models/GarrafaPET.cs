@@ -11,8 +11,8 @@ namespace Reciclagem.Models
         {
             
             Console.BackgroundColor = ConsoleColor.Red;
-            System.Console.WriteLine("Garrafa deve ser jogado na lixeira VERMELHA");
-            Console.BackgroundColor = ConsoleColor.Black;
+            System.Console.WriteLine("Garrafa PET deve ser jogado na lixeira VERMELHA");
+            Console.ResetColor();
         }
     }
 }

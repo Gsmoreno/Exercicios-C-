@@ -1,0 +1,11 @@
+C:\Users\49801332824\Documents\Exercicios\Viagem\bin\Debug\netcoreapp2.2\Viagem.deps.json
+C:\Users\49801332824\Documents\Exercicios\Viagem\bin\Debug\netcoreapp2.2\Viagem.runtimeconfig.json
+C:\Users\49801332824\Documents\Exercicios\Viagem\bin\Debug\netcoreapp2.2\Viagem.runtimeconfig.dev.json
+C:\Users\49801332824\Documents\Exercicios\Viagem\bin\Debug\netcoreapp2.2\Viagem.dll
+C:\Users\49801332824\Documents\Exercicios\Viagem\bin\Debug\netcoreapp2.2\Viagem.pdb
+C:\Users\49801332824\Documents\Exercicios\Viagem\obj\Debug\netcoreapp2.2\Viagem.csprojAssemblyReference.cache
+C:\Users\49801332824\Documents\Exercicios\Viagem\obj\Debug\netcoreapp2.2\Viagem.csproj.CoreCompileInputs.cache
+C:\Users\49801332824\Documents\Exercicios\Viagem\obj\Debug\netcoreapp2.2\Viagem.AssemblyInfoInputs.cache
+C:\Users\49801332824\Documents\Exercicios\Viagem\obj\Debug\netcoreapp2.2\Viagem.AssemblyInfo.cs
+C:\Users\49801332824\Documents\Exercicios\Viagem\obj\Debug\netcoreapp2.2\Viagem.dll
+C:\Users\49801332824\Documents\Exercicios\Viagem\obj\Debug\netcoreapp2.2\Viagem.pdb

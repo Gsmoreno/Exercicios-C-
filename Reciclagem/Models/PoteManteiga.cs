@@ -10,7 +10,8 @@ namespace Reciclagem.Models
         public void Lixao()
         {
             Console.BackgroundColor = ConsoleColor.Black;
-            System.Console.WriteLine("Garrafa deve ser jogado na lixeira PRETA");
+            System.Console.WriteLine("Pote de Manteiga deve ser jogado na lixeira PRETA");
+            Console.ResetColor();
             
             
 

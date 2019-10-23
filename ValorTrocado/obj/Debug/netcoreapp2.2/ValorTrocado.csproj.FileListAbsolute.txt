@@ -1,0 +1,11 @@
+C:\Users\49801332824\Documents\Exercicios\ValorTrocado\bin\Debug\netcoreapp2.2\ValorTrocado.deps.json
+C:\Users\49801332824\Documents\Exercicios\ValorTrocado\bin\Debug\netcoreapp2.2\ValorTrocado.runtimeconfig.json
+C:\Users\49801332824\Documents\Exercicios\ValorTrocado\bin\Debug\netcoreapp2.2\ValorTrocado.runtimeconfig.dev.json
+C:\Users\49801332824\Documents\Exercicios\ValorTrocado\bin\Debug\netcoreapp2.2\ValorTrocado.dll
+C:\Users\49801332824\Documents\Exercicios\ValorTrocado\bin\Debug\netcoreapp2.2\ValorTrocado.pdb
+C:\Users\49801332824\Documents\Exercicios\ValorTrocado\obj\Debug\netcoreapp2.2\ValorTrocado.csprojAssemblyReference.cache
+C:\Users\49801332824\Documents\Exercicios\ValorTrocado\obj\Debug\netcoreapp2.2\ValorTrocado.csproj.CoreCompileInputs.cache
+C:\Users\49801332824\Documents\Exercicios\ValorTrocado\obj\Debug\netcoreapp2.2\ValorTrocado.AssemblyInfoInputs.cache
+C:\Users\49801332824\Documents\Exercicios\ValorTrocado\obj\Debug\netcoreapp2.2\ValorTrocado.AssemblyInfo.cs
+C:\Users\49801332824\Documents\Exercicios\ValorTrocado\obj\Debug\netcoreapp2.2\ValorTrocado.dll
+C:\Users\49801332824\Documents\Exercicios\ValorTrocado\obj\Debug\netcoreapp2.2\ValorTrocado.pdb
