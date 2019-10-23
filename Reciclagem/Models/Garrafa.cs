@@ -7,8 +7,9 @@ namespace Reciclagem.Models
     {
         public void Lixao()
         {
+            Console.BackgroundColor = ConsoleColor.Green;
             System.Console.WriteLine("Garrafa deve ser jogado na lixeira VERDE");
-            
+            Console.BackgroundColor = ConsoleColor.Black;
         }
     }
 }

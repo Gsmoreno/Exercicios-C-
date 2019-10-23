@@ -17,42 +17,51 @@ namespace Reciclagem
             System.Console.WriteLine(" 6 - Pote de Manteiga");
             System.Console.WriteLine("Digite o numero do lixo a ser jogado: ");
             int Lixos = int.Parse(Console.ReadLine());
-    
+
             
-            
-            
-            switch (Lixos)
+
+            do
             {
-                case 1:
-                    Garrafa lixo = new Garrafa();
-                    lixo.Lixao();
-                    break;
-                case 2:
-                    GarrafaPET pet = new GarrafaPET();
-                    lixo.Lixao();
-                    break;
-                case 3: 
-                    GuardaChuva inder = new GuardaChuva();
-                    lixo.Lixao();
-                    break;
-                case 4:
-                    Latinha lata = new Latinha();
-                    lixo.Lixao();
-                    break;
-                case 5:
-                    Papelao papel = new Papelao();
-                    lixo.Lixao();
-                    break;
-                case 6:
-                    PoteManteiga mante = new PoteManteiga();
-                    lixo.Lixao();
-                    break;
-                default:
-                    System.Console.WriteLine("Comando Invalido!");
-                    break;
+
+                switch (Lixos)
+                {
+                    case 1:
+                        Garrafa lixo = new Garrafa();
+                        lixo.Lixao();
+                        break;
+                    case 2:
+                        GarrafaPET pet = new GarrafaPET();
+                        pet.Lixao();
+                        break;
+                    case 3:
+                        GuardaChuva inder = new GuardaChuva();
+                        inder.Lixao();
+                        break;
+                    case 4:
+                        Latinha lata = new Latinha();
+                        lata.Lixao();
+                        break;
+                    case 5:
+                        Papelao papel = new Papelao();
+                        papel.Lixao();
+                        break;
+                    case 6:
+                        PoteManteiga mante = new PoteManteiga();
+                        mante.Lixao();
+                        break;
+                    default:
+                        System.Console.WriteLine("Comando Invalido!");
+                        break;
+                }
                 
-            }
+                System.Console.WriteLine("Digite um numero valido: ");
+                Lixos = int.Parse(Console.ReadLine());
             
+            } while ((Lixos > 6) && (Lixos <= 0) );
+
+
+
+
         }
     }
 }
