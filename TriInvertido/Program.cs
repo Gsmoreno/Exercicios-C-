@@ -24,7 +24,7 @@ namespace TriInvertido
                 for (int i = alt; i != 0; i-- )
                 {
                     Console.Write(ast2);
-                    ast2 = (ast = "*");
+                    ast2 = (ast + "*");
                 }
                 
                 alt --;
