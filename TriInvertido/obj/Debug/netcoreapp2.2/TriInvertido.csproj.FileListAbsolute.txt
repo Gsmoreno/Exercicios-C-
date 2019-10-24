@@ -1,0 +1,11 @@
+C:\Users\49801332824\Documents\Exercicios\TriInvertido\bin\Debug\netcoreapp2.2\TriInvertido.deps.json
+C:\Users\49801332824\Documents\Exercicios\TriInvertido\bin\Debug\netcoreapp2.2\TriInvertido.runtimeconfig.json
+C:\Users\49801332824\Documents\Exercicios\TriInvertido\bin\Debug\netcoreapp2.2\TriInvertido.runtimeconfig.dev.json
+C:\Users\49801332824\Documents\Exercicios\TriInvertido\bin\Debug\netcoreapp2.2\TriInvertido.dll
+C:\Users\49801332824\Documents\Exercicios\TriInvertido\bin\Debug\netcoreapp2.2\TriInvertido.pdb
+C:\Users\49801332824\Documents\Exercicios\TriInvertido\obj\Debug\netcoreapp2.2\TriInvertido.csprojAssemblyReference.cache
+C:\Users\49801332824\Documents\Exercicios\TriInvertido\obj\Debug\netcoreapp2.2\TriInvertido.csproj.CoreCompileInputs.cache
+C:\Users\49801332824\Documents\Exercicios\TriInvertido\obj\Debug\netcoreapp2.2\TriInvertido.AssemblyInfoInputs.cache
+C:\Users\49801332824\Documents\Exercicios\TriInvertido\obj\Debug\netcoreapp2.2\TriInvertido.AssemblyInfo.cs
+C:\Users\49801332824\Documents\Exercicios\TriInvertido\obj\Debug\netcoreapp2.2\TriInvertido.dll
+C:\Users\49801332824\Documents\Exercicios\TriInvertido\obj\Debug\netcoreapp2.2\TriInvertido.pdb

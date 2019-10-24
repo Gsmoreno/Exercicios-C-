@@ -16,15 +16,17 @@ namespace Triangulos
             Console.WriteLine("Digite a altura dos triangulos: ");
             altura = Convert.ToInt32(Console.ReadLine());
 
-        while(nmr != 0){
-            for(int i = 0; i <= altura ; i++){
-               Console.WriteLine(ast2);
-               ast2 += ast;
-             }
-             ast2 ="*";
-             nmr--;
+            while (nmr != 0)
+            {
+                for (int i = 0; i <= altura; i++)
+                {
+                    Console.WriteLine(ast2);
+                    ast2 += ast;
+                }
+                ast2 = "*";
+                nmr--;
 
-            } 
+            }
         }
     }
 }
