@@ -1,0 +1,11 @@
+C:\Users\49801332824\Documents\Exercicios\AtéImpar\bin\Debug\netcoreapp2.2\AtéImpar.deps.json
+C:\Users\49801332824\Documents\Exercicios\AtéImpar\bin\Debug\netcoreapp2.2\AtéImpar.runtimeconfig.json
+C:\Users\49801332824\Documents\Exercicios\AtéImpar\bin\Debug\netcoreapp2.2\AtéImpar.runtimeconfig.dev.json
+C:\Users\49801332824\Documents\Exercicios\AtéImpar\bin\Debug\netcoreapp2.2\AtéImpar.dll
+C:\Users\49801332824\Documents\Exercicios\AtéImpar\bin\Debug\netcoreapp2.2\AtéImpar.pdb
+C:\Users\49801332824\Documents\Exercicios\AtéImpar\obj\Debug\netcoreapp2.2\AtéImpar.csprojAssemblyReference.cache
+C:\Users\49801332824\Documents\Exercicios\AtéImpar\obj\Debug\netcoreapp2.2\AtéImpar.csproj.CoreCompileInputs.cache
+C:\Users\49801332824\Documents\Exercicios\AtéImpar\obj\Debug\netcoreapp2.2\AtéImpar.AssemblyInfoInputs.cache
+C:\Users\49801332824\Documents\Exercicios\AtéImpar\obj\Debug\netcoreapp2.2\AtéImpar.AssemblyInfo.cs
+C:\Users\49801332824\Documents\Exercicios\AtéImpar\obj\Debug\netcoreapp2.2\AtéImpar.dll
+C:\Users\49801332824\Documents\Exercicios\AtéImpar\obj\Debug\netcoreapp2.2\AtéImpar.pdb

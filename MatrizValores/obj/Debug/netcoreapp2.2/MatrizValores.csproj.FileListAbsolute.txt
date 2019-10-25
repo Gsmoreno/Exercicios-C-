@@ -1,0 +1,11 @@
+C:\Users\49801332824\Documents\Exercicios\MatrizValores\obj\Debug\netcoreapp2.2\MatrizValores.csprojAssemblyReference.cache
+C:\Users\49801332824\Documents\Exercicios\MatrizValores\obj\Debug\netcoreapp2.2\MatrizValores.csproj.CoreCompileInputs.cache
+C:\Users\49801332824\Documents\Exercicios\MatrizValores\obj\Debug\netcoreapp2.2\MatrizValores.AssemblyInfoInputs.cache
+C:\Users\49801332824\Documents\Exercicios\MatrizValores\obj\Debug\netcoreapp2.2\MatrizValores.AssemblyInfo.cs
+C:\Users\49801332824\Documents\Exercicios\MatrizValores\bin\Debug\netcoreapp2.2\MatrizValores.deps.json
+C:\Users\49801332824\Documents\Exercicios\MatrizValores\bin\Debug\netcoreapp2.2\MatrizValores.runtimeconfig.json
+C:\Users\49801332824\Documents\Exercicios\MatrizValores\bin\Debug\netcoreapp2.2\MatrizValores.runtimeconfig.dev.json
+C:\Users\49801332824\Documents\Exercicios\MatrizValores\bin\Debug\netcoreapp2.2\MatrizValores.dll
+C:\Users\49801332824\Documents\Exercicios\MatrizValores\bin\Debug\netcoreapp2.2\MatrizValores.pdb
+C:\Users\49801332824\Documents\Exercicios\MatrizValores\obj\Debug\netcoreapp2.2\MatrizValores.dll
+C:\Users\49801332824\Documents\Exercicios\MatrizValores\obj\Debug\netcoreapp2.2\MatrizValores.pdb

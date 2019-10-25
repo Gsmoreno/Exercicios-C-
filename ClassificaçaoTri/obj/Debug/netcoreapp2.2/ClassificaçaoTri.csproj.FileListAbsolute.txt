@@ -1,0 +1,11 @@
+C:\Users\49801332824\Documents\Exercicios\ClassificaçaoTri\bin\Debug\netcoreapp2.2\ClassificaçaoTri.deps.json
+C:\Users\49801332824\Documents\Exercicios\ClassificaçaoTri\bin\Debug\netcoreapp2.2\ClassificaçaoTri.runtimeconfig.json
+C:\Users\49801332824\Documents\Exercicios\ClassificaçaoTri\bin\Debug\netcoreapp2.2\ClassificaçaoTri.runtimeconfig.dev.json
+C:\Users\49801332824\Documents\Exercicios\ClassificaçaoTri\bin\Debug\netcoreapp2.2\ClassificaçaoTri.dll
+C:\Users\49801332824\Documents\Exercicios\ClassificaçaoTri\bin\Debug\netcoreapp2.2\ClassificaçaoTri.pdb
+C:\Users\49801332824\Documents\Exercicios\ClassificaçaoTri\obj\Debug\netcoreapp2.2\ClassificaçaoTri.csprojAssemblyReference.cache
+C:\Users\49801332824\Documents\Exercicios\ClassificaçaoTri\obj\Debug\netcoreapp2.2\ClassificaçaoTri.csproj.CoreCompileInputs.cache
+C:\Users\49801332824\Documents\Exercicios\ClassificaçaoTri\obj\Debug\netcoreapp2.2\ClassificaçaoTri.AssemblyInfoInputs.cache
+C:\Users\49801332824\Documents\Exercicios\ClassificaçaoTri\obj\Debug\netcoreapp2.2\ClassificaçaoTri.AssemblyInfo.cs
+C:\Users\49801332824\Documents\Exercicios\ClassificaçaoTri\obj\Debug\netcoreapp2.2\ClassificaçaoTri.dll
+C:\Users\49801332824\Documents\Exercicios\ClassificaçaoTri\obj\Debug\netcoreapp2.2\ClassificaçaoTri.pdb
