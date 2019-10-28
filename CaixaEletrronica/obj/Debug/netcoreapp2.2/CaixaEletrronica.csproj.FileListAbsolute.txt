@@ -1,0 +1,11 @@
+C:\Users\49801332824\Documents\Exercicios\CaixaEletrronica\obj\Debug\netcoreapp2.2\CaixaEletrronica.csprojAssemblyReference.cache
+C:\Users\49801332824\Documents\Exercicios\CaixaEletrronica\obj\Debug\netcoreapp2.2\CaixaEletrronica.csproj.CoreCompileInputs.cache
+C:\Users\49801332824\Documents\Exercicios\CaixaEletrronica\obj\Debug\netcoreapp2.2\CaixaEletrronica.AssemblyInfoInputs.cache
+C:\Users\49801332824\Documents\Exercicios\CaixaEletrronica\obj\Debug\netcoreapp2.2\CaixaEletrronica.AssemblyInfo.cs
+C:\Users\49801332824\Documents\Exercicios\CaixaEletrronica\bin\Debug\netcoreapp2.2\CaixaEletrronica.deps.json
+C:\Users\49801332824\Documents\Exercicios\CaixaEletrronica\bin\Debug\netcoreapp2.2\CaixaEletrronica.runtimeconfig.json
+C:\Users\49801332824\Documents\Exercicios\CaixaEletrronica\bin\Debug\netcoreapp2.2\CaixaEletrronica.runtimeconfig.dev.json
+C:\Users\49801332824\Documents\Exercicios\CaixaEletrronica\bin\Debug\netcoreapp2.2\CaixaEletrronica.dll
+C:\Users\49801332824\Documents\Exercicios\CaixaEletrronica\bin\Debug\netcoreapp2.2\CaixaEletrronica.pdb
+C:\Users\49801332824\Documents\Exercicios\CaixaEletrronica\obj\Debug\netcoreapp2.2\CaixaEletrronica.dll
+C:\Users\49801332824\Documents\Exercicios\CaixaEletrronica\obj\Debug\netcoreapp2.2\CaixaEletrronica.pdb
