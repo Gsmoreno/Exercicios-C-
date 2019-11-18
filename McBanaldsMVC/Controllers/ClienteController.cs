@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Http;
 using System;
 using Microsoft.AspNetCore.Mvc;
+using McBanaldsMVC.Repositories;
 
 namespace McBanaldsMVC.Controllers
 {
@@ -21,6 +22,11 @@ namespace McBanaldsMVC.Controllers
                 System.Console.WriteLine(form["email"]);
                 System.Console.WriteLine(form["senha"]);
                 System.Console.WriteLine("================================");
+
+                var usuario = form["email"];
+                var senha = form["senha"];
+
+                var cliente = clienteRepository.ObterPor(usuario);
 
                 return View("Sucesso");
             }
