@@ -1,10 +1,11 @@
 using System;
+using System.Collections.Generic;
 using System.IO;
 using McBanaldsMVC.Models;
 
-namespace McBanaldsMVC.Repositories
+namespace McBanaldsMVC.Repositories 
 {
-    public class ClienteRepository
+    public class ClienteRepository: RepositoryBase
     {
         private const string PATH = "Database/Cliente.csv";
 
@@ -29,7 +30,7 @@ namespace McBanaldsMVC.Repositories
             var linhas = File.ReadAllLines(PATH);
             foreach (var item in linhas)
             {
-                if (ExtrairValorDeCampo("email", item).Equals(email))
+                if (ExtrairValorDoCampo("email", item).Equals(email))
                 {
                     Cliente c = new Cliente();
                     c.Nome = ExtrairValorDoCampo("nome", item);
@@ -42,28 +43,12 @@ namespace McBanaldsMVC.Repositories
                     return c;
                 }
             }
+                return null;
         }
 
-        private string ExtrairValorDoCampo(string nomeCampo, string linha)
-        {
-            var chave = nomeCampo;
-            var indiceChave = linha.IndexOf(chave);
+        
 
-            var indiceTerminal = linha.IndexOf(";", indiceChave);
-
-            var valor = "";
-
-            if (indiceTerminal != -1)
-            {
-                valor = linha.Substring(indiceChave, indiceTerminal - indiceChave);
-            }else
-            {
-                valor = linha.Substring(indiceChave);
-            }
-            System.Console.WriteLine($"Campo {nomeCampo} e valor {valor}");
-            return valor.Replace(nomeCampo + "=", "");
-
-        }
+        
 
         private string PrepararRegistroCSV(Cliente cliente)
         {

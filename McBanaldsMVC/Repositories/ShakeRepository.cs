@@ -4,7 +4,7 @@ using McBanaldsMVC.Models;
 
 namespace McBanaldsMVC.Repositories
 {
-    public class ShakeRepository
+    public class ShakeRepository : RepositoryBase
     {
         private const string PATH = "Database/Shake.csv";
 
